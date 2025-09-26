@@ -2,7 +2,7 @@
 
 ## Repository naming
 
-The repository may be named with either a proper name(e.g. `neon` or `libhallucinate`), a descriptinve name(e.g. `md-repo-spec` or `md-toolchain`) or a meltdownified name of a taken project(e.g. `md-git`)
+The repository may be named with either a proper name(e.g., `neon` or `libhallucinate`), a descriptive name(e.g., `md-repo-spec` or `md-toolchain`), or a meltdownified name of a taken project(e.g., `md-git`)
 
 All names are in **kebab-case**
 
@@ -23,13 +23,13 @@ This naming scheme is **strictly for reimplementations** and involves putting `m
 
 ### Long names
 
-The readme and other `.md` files must contain a long name that is just a description of what the project does alongside the name(if it isnt already a descriptive name).
+The readme and other `.md` files must contain a long name that is just a description of what the project does alongside the name(if it isn't already a descriptive name).
 
-These long names are in **Title Case**
+These long names are in **Title Case**.
 
 ## Versioning
 
-While the exact versioning scheme to use is dependant of what the project is, we reccomend a Major-Minor-Patch system with or without codenames.
+While the exact versioning scheme to use depends on what the project is, we recommend a Major-Minor-Patch system with or without codenames.
 
 A custom versioning scheme may be defined under the `Versioning` heading of `README.md`
 
@@ -37,15 +37,15 @@ A custom versioning scheme may be defined under the `Versioning` heading of `REA
 
 ### The development branch
 
-The `dev` branch is for development, developers can push to this branch and this branch contains configurations for code editors and tools like `clang-format`
+The `dev` branch is for development. Developers can push to this branch, and this branch contains configurations for code editors and tools like `clang-format`
 
 ### The version branches
 
-Each version can have a version branch for each version that must start with `ver/` and then the formatted version number
+Each version can have a version branch for each version that must start with `ver/` and then the formatted version number.
 
 ### The feature branches
 
-If the `dev` branch is not enough you may add `feat/` branches for extra work, they are just copies of the `dev` branch
+If the `dev` branch is not enough, you may add `feat/` branches for extra work; they are just copies of the `dev` branch.
 
 ## DEPS.md
 
@@ -71,7 +71,7 @@ The `Scope` header must clearly define what each component(if separated) in the 
 
 ## README.md
 
-The first heading of the readme must be the project name, with the project description and badges bellow it.
+The first heading of the README must be the project name, with the project description and badges below it.
 
 ### Building(optional)
 
@@ -87,4 +87,4 @@ This section must say that `This project is licensed under the BSD Zero Clause L
 
 ## SPEC.md
 
-This file has to specify the intented behaviour of the project, its format is left up to the project.
+This file has to specify the intended behaviour of the project. Its format is left up to the project.
